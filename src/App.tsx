@@ -1,6 +1,8 @@
 import { BackgroundDecoration } from "./components/BackgroundDecoration";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { QuoteSection } from "./components/QuoteSection";
+import { Skills } from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
 
         <main>
           <Hero />
+          <QuoteSection />
+          <Skills />
         </main>
       </div>
     </>

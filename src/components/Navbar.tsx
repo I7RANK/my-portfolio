@@ -3,9 +3,10 @@ import { HANDLE } from "../config/portfolio-data";
 
 const LINKS = [
   { label: "home", hash: "#home", num: "00" },
-  { label: "projects", hash: "#projects", num: "01" },
+  { label: "skills", hash: "#skills", num: "01" },
   { label: "experience", hash: "#experience", num: "02" },
-  { label: "contact", hash: "#contact", num: "03" },
+  { label: "projects", hash: "#projects", num: "03" },
+  { label: "contact", hash: "#contact", num: "04" },
 ];
 
 export function Navbar() {

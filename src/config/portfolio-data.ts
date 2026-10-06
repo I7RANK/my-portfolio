@@ -9,3 +9,20 @@ export const HERO = {
   cta: "Contact me",
   status: ["Frontend-heavy", "Vue · React · TypeScript · Node.js"],
 };
+
+export const QUOTE = {
+  text: "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+  author: "John F. Woods",
+};
+
+export const SKILLS = [
+  "Vue / Nuxt",
+  "React / Next.js",
+  "TypeScript",
+  "Node.js",
+  "GraphQL",
+  "Frontend Architecture",
+  "IA assisted Development",
+  "Automated tests",
+  "Web performance",
+];
