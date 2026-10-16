@@ -68,3 +68,7 @@ export const EDUCATION = {
   program:
     "Computer Science and Software Engineering · Web stack specialization",
 };
+
+export const CONTACT_EMAIL = "franfgh2000@hotmail.com";
+export const CONTACT_PHONE = "+57 3025468345";
+export const CONTACT_PHONE_HREF = "tel:+573025468345";
