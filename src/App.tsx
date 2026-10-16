@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { QuoteSection } from "./components/QuoteSection";
 import { Skills } from "./components/Skills";
+import { Experience } from "./components/Experience";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Hero />
           <QuoteSection />
           <Skills />
+          <Experience />
         </main>
       </div>
     </>

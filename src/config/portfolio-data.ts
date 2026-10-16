@@ -26,3 +26,45 @@ export const SKILLS = [
   "Automated tests",
   "Web performance",
 ];
+
+export interface ExperienceItem {
+  period: string;
+  role: string;
+  company: string;
+  description: string;
+  tags: string[];
+}
+
+export const EXPERIENCE: ExperienceItem[] = [
+  {
+    period: "Jun 2022 — May 2025",
+    role: "Frontend Developer",
+    company: "Allan Solutions S.A.S",
+    description:
+      "Developed applications for enterprise clients using Vue, Nuxt, React, Next.js, and TypeScript. I participated in the migration of two applications from Vue 2 to Vue 3, built dashboards with Chart.js, and integrated REST APIs, GraphQL, and headless CMS. I migrated end-to-end tests from Cypress to Playwright, reducing CI/CD time from 30 to 15 minutes.",
+    tags: [
+      "Vue 3",
+      "Nuxt",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Playwright",
+      "GraphQL",
+    ],
+  },
+  {
+    period: "Dec 2020 — Dec 2021",
+    role: "Junior Software Developer",
+    company: "Holberton School",
+    description:
+      "Contributed to the development of internal tools for Holberton Colombia. I delivered more than 20 programming workshops and talks and collaborated in the training of new developers.",
+    tags: ["Web Development", "Mentorship", "Communication"],
+  },
+];
+
+export const EDUCATION = {
+  institution: "Holberton School",
+  period: "Jun 2020 — Dic 2021",
+  program:
+    "Computer Science and Software Engineering · Web stack specialization",
+};
