@@ -4,7 +4,7 @@ import { Hero } from "./components/Hero";
 import { QuoteSection } from "./components/QuoteSection";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
-import { Contact } from "./components/Contact";
+import { Contact, Footer } from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +22,8 @@ function App() {
           <Experience />
           <Contact />
         </main>
+
+        <Footer />
       </div>
     </>
   );

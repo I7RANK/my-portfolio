@@ -75,8 +75,8 @@ export function Contact() {
 
 export function Footer() {
   return (
-    <footer className="relative border-t border-border py-8">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-xs text-muted-foreground sm:flex-row">
+    <footer className="bg-background/85 backdrop-blur-sm relative border-t border-border py-8 w-full">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-7 lg:gap-3 px-6 text-xs text-center text-muted-foreground lg:flex-row">
         <p>
           <span className="text-primary">©</span> {new Date().getFullYear()}{" "}
           {NAME} — Thank you for visiting my portfolio! All rights reserved.
