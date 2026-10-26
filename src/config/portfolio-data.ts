@@ -70,8 +70,6 @@ export const EDUCATION = {
 };
 
 export const CONTACT_EMAIL = "franfgh2000@hotmail.com";
-export const CONTACT_PHONE = "+57 3025468345";
-export const CONTACT_PHONE_HREF = "tel:+573025468345";
 export const SOCIALS = [
   { label: "GitHub", href: "https://github.com/I7RANK", icon: "github" },
   { label: "Email", href: `mailto:${CONTACT_EMAIL}`, icon: "mail" },

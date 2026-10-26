@@ -1,12 +1,6 @@
-import { Mail, Phone, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import {
-  CONTACT_EMAIL,
-  CONTACT_PHONE,
-  CONTACT_PHONE_HREF,
-  HANDLE,
-  NAME,
-} from "../config/portfolio-data";
+import { CONTACT_EMAIL, HANDLE, NAME } from "../config/portfolio-data";
 
 export function Contact() {
   return (
@@ -45,19 +39,12 @@ export function Contact() {
                   <Mail size={16} strokeWidth={1.5} className="text-primary" />
                   {CONTACT_EMAIL}
                 </a>
-                <a
-                  href={CONTACT_PHONE_HREF}
-                  className="flex items-center gap-2.5 transition-colors hover:text-primary"
-                >
-                  <Phone size={16} strokeWidth={1.5} className="text-primary" />
-                  {CONTACT_PHONE}
-                </a>
               </div>
             </div>
 
             <a
               href={`mailto:${CONTACT_EMAIL}`}
-              className="group inline-flex items-center justify-center gap-3 self-start border border-primary px-8 py-4 text-sm font-medium text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+              className="group inline-flex items-center justify-center gap-3 self-start lg:self-center border border-primary px-8 py-4 text-sm font-medium text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
             >
               Send Message
               <Send
@@ -75,7 +62,7 @@ export function Contact() {
 
 export function Footer() {
   return (
-    <footer className="bg-background/85 backdrop-blur-sm relative border-t border-border py-8 w-full">
+    <footer className="bg-background/85 backdrop-blur-sm relative border-t border-border py-8 w-full lg:mt-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-7 lg:gap-3 px-6 text-xs text-center text-muted-foreground lg:flex-row">
         <p>
           <span className="text-primary">©</span> {new Date().getFullYear()}{" "}
