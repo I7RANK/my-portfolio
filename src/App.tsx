@@ -5,6 +5,7 @@ import { QuoteSection } from "./components/QuoteSection";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Contact, Footer } from "./components/Contact";
+import { SocialSidebar } from "./components/SocialSideBar";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Experience />
           <Contact />
         </main>
+
+        <SocialSidebar />
 
         <Footer />
       </div>
